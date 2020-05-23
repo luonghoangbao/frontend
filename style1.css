@@ -1,0 +1,23 @@
+body {
+    padding: 20px;
+}
+.container {
+    border: 1px solid Lime;
+    padding: 10px;
+    width: 200px;
+}
+.test1 {
+    display: none;
+    border: 1px dashed orange;
+    background: green;
+    padding: 10px;
+    pointer-events: none;
+}
+.container:hover .test1 {
+    display: inline-block;
+}
+a {
+    pointer-events: auto;
+    color: Lime;
+    font-weight: bold;
+}
